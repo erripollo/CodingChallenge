@@ -1,0 +1,88 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+
+.container2{
+  width: 800px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo{
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.testologo{
+  color: lime;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.button-menu{
+  background-color: lime;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-monopattino{
+  padding-top: 20px;
+}
+
+h2{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+
+.main-text{
+  color: white;
+  font-size: 15px;
+}
+
+.street{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.stato-carica1{
+  width: 300px;
+  height: 25px;
+  background-color: rgb(255, 184, 77);
+  border-radius: 5px;
+}
+
+.stato-carica2{
+  width: 500px;
+  height: 25px;
+  background-color: rgb(57, 230, 0);
+  border-radius: 5px;
+}
+
+.stato-carica3{
+  width: 150px;
+  height: 25px;
+  background-color: rgb(204, 51, 0);
+  border-radius: 5px;
+}
